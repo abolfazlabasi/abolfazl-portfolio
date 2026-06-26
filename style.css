@@ -1,0 +1,14 @@
+body {
+    font-family: Arial;
+    max-width: 700px;
+    margin: auto;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+}
