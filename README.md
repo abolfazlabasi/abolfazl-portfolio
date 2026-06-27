@@ -8,12 +8,12 @@
 
 ## ✨ Features
 
-- **Auto-loaded projects** — pulls all public repos directly from GitHub API (cached 24h)
-- **Typewriter animation** — rotating role titles in the hero section
+- **Auto-loaded projects** — pulls all public repos live from GitHub API (cached 24h)
+- **Typewriter animation** — rotating role titles in the hero
 - **Scroll reveal** — cards animate in as you scroll
-- **Fully responsive** — mobile, tablet, and desktop
+- **Fully responsive** — mobile, tablet, desktop
 - **Dark theme** — clean dark UI with blue accent
-- **Fast & lightweight** — no frameworks, no dependencies
+- **Fast & lightweight** — no frameworks, zero dependencies
 
 ---
 
@@ -38,7 +38,7 @@ abolfazl-portfolio/
 | Hero | Name, animated role titles, CTA buttons |
 | About | Bio, profile photo, email |
 | Skills | HTML, CSS, JavaScript, WordPress |
-| Projects | Auto-fetched from GitHub API |
+| Projects | Auto-fetched live from GitHub API |
 | Contact | GitHub, Email, LinkedIn, Telegram, WhatsApp |
 
 ---
@@ -58,7 +58,7 @@ abolfazl-portfolio/
 ## 🚀 Deploy
 
 Hosted via **GitHub Pages** from the `main` branch root.  
-To update: commit and push any file — the site rebuilds automatically within ~1 minute.
+Push any change → site rebuilds automatically in ~1 minute.
 
 ---
 
