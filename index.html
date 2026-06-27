@@ -122,25 +122,12 @@
     <div class="container">
       <h2 class="section-title">Projects</h2>
       <p class="section-sub">Things I've built and shipped</p>
-      <div class="projects-grid">
-        <article class="project-card featured">
-          <div class="project-badge">Featured</div>
-          <h3 class="project-title">Portfolio Website</h3>
-          <p class="project-desc">
-            This very portfolio — built with pure HTML, CSS and JavaScript.
-            Responsive design, smooth animations, and clean semantic code.
-          </p>
-          <div class="project-tags">
-            <span>HTML</span><span>CSS</span><span>JavaScript</span>
-          </div>
-          <a href="https://github.com/abolfazlabasi/abolfazl-portfolio" target="_blank" rel="noopener" class="project-link">
-            View on GitHub →
-          </a>
-        </article>
-        <article class="project-card add-more">
-          <div class="add-icon">+</div>
-          <p>More projects coming soon</p>
-        </article>
+      <div class="projects-grid" id="projects-grid">
+        <!-- Loaded dynamically from GitHub API -->
+        <div class="projects-loading">
+          <div class="loading-spinner"></div>
+          <p>Loading projects from GitHub…</p>
+        </div>
       </div>
     </div>
   </section>
