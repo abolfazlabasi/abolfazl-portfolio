@@ -445,6 +445,11 @@ body {
   position: relative;
   z-index: 1;
   display: block;
+  filter: grayscale(100%) contrast(1.1) brightness(0.95);
+  transition: filter .4s ease;
+}
+.about-photo-wrap:hover .about-photo {
+  filter: grayscale(0%) contrast(1) brightness(1);
 }
 
 .about-photo-ring {
@@ -473,3 +478,44 @@ body {
     gap: 36px;
   }
 }
+
+/* ─── GITHUB PROJECTS DYNAMIC ──────────────────────── */
+.projects-loading, .projects-error {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-mute);
+  font-family: var(--font-d);
+}
+
+.loading-spinner {
+  width: 36px; height: 36px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin-load .7s linear infinite;
+  margin: 0 auto 16px;
+}
+@keyframes spin-load { to { transform: rotate(360deg); } }
+
+.project-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  font-family: var(--font-d);
+  font-size: .75rem;
+  color: var(--text-mute);
+}
+.repo-lang {
+  display: flex; align-items: center; gap: 5px;
+}
+.lang-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.repo-stat { color: var(--text-mute); }
+.repo-date { margin-left: auto; }
