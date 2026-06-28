@@ -1,19 +1,23 @@
 # Abolfazl Abasi — Portfolio
 
-> Personal portfolio website built with pure HTML, CSS, and JavaScript — hosted on GitHub Pages.
+> Personal portfolio — pure HTML, CSS, JavaScript — hosted on GitHub Pages.
 
-🌐 **Live Site:** [abolfazlabasi.github.io/abolfazl-portfolio](https://abolfazlabasi.github.io/abolfazl-portfolio/)
+🌐 **Live:** [abolfazlabasi.github.io/abolfazl-portfolio](https://abolfazlabasi.github.io/abolfazl-portfolio/)
 
 ---
 
 ## ✨ Features
 
-- **Auto-loaded projects** — pulls all public repos live from GitHub API (cached 24h)
-- **Typewriter animation** — rotating role titles in the hero
-- **Scroll reveal** — cards animate in as you scroll
-- **Fully responsive** — mobile, tablet, desktop
-- **Dark theme** — clean dark UI with blue accent
-- **Fast & lightweight** — no frameworks, zero dependencies
+- **Dark / Light theme** toggle
+- **Persian / English** language switch
+- **Auto-loaded projects** from GitHub API (24h cache)
+- **Timeline** — experience & education
+- **Skill bars** with animated progress
+- **Project screenshots** (auto-fetched if site URL exists)
+- **Download CV** button
+- **Back to top** button
+- **Admin panel** — secret panel (click footer 5×)
+- Fully responsive, zero dependencies
 
 ---
 
@@ -21,32 +25,32 @@
 
 ```
 abolfazl-portfolio/
-├── index.html       # Main page
-├── style.css        # All styles
-├── script.js        # Animations + GitHub API loader
+├── index.html
+├── style.css
+├── script.js
+├── admin.js
+├── cv.pdf           ← add your CV here
 ├── images/
-│   └── profile.png  # Profile photo
+│   └── profile.png
 └── README.md
 ```
 
 ---
 
-## 🔧 Sections
+## 🔐 Admin Panel
 
-| Section | Description |
-|---------|-------------|
-| Hero | Name, animated role titles, CTA buttons |
-| About | Bio, profile photo, email |
-| Skills | HTML, CSS, JavaScript, WordPress |
-| Projects | Auto-fetched live from GitHub API |
-| Contact | GitHub, Email, LinkedIn, Telegram, WhatsApp |
+Click the **footer 5 times quickly** → password prompt appears.
+
+Default password: `abolfazl2025`
+
+Lets you add/remove: projects (WordPress etc.), skills, bio text, change password.
 
 ---
 
 ## 📬 Contact
 
-| Platform | Link |
-|----------|------|
+| | |
+|--|--|
 | GitHub | [@abolfazlabasi](https://github.com/abolfazlabasi) |
 | Email | abolfazlabac7@gmail.com |
 | LinkedIn | [abolfazl-abasi](https://www.linkedin.com/in/abolfazl-abasi-1a83a8363) |
@@ -54,12 +58,4 @@ abolfazl-portfolio/
 | WhatsApp | +98 921 639 9315 |
 
 ---
-
-## 🚀 Deploy
-
-Hosted via **GitHub Pages** from the `main` branch root.  
-Push any change → site rebuilds automatically in ~1 minute.
-
----
-
 *Built by Abolfazl Abasi — 2025*
